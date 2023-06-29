@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hellenfiori/Documents/Hellen/Integração de Sistemas de Sotware/project_B_integracao/project_B_integracao.csproj": {}
+  },
+  "projects": {
+    "/Users/hellenfiori/Documents/Hellen/Integração de Sistemas de Sotware/project_B_integracao/project_B_integracao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hellenfiori/Documents/Hellen/Integração de Sistemas de Sotware/project_B_integracao/project_B_integracao.csproj",
+        "projectName": "project_B_integracao",
+        "projectPath": "/Users/hellenfiori/Documents/Hellen/Integração de Sistemas de Sotware/project_B_integracao/project_B_integracao.csproj",
+        "packagesPath": "/Users/hellenfiori/.nuget/packages/",
+        "outputPath": "/Users/hellenfiori/Documents/Hellen/Integração de Sistemas de Sotware/project_B_integracao/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hellenfiori/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
